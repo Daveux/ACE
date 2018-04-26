@@ -23,7 +23,7 @@ function transitionAnimation(){
 		counter+=1;
 }
 var myvar=setInterval(transitionAnimation,2000);
-// clearInt();
+sticky// clearInt();
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
 
@@ -105,3 +105,6 @@ function setInt(){
 	myvar=setInterval(transitionAnimation,2000);
 }
 
+function carouselhover(){
+	
+}
