@@ -129,7 +129,7 @@ function setInt(){
 }
 
 
-=======
+
 // function populateModal(content){
 // 	image=$('.'+content).children('img:first');
 // 	$(image).addClass('modalImage');
@@ -154,8 +154,13 @@ function populateModal(content){
 function downloadImage(content){
 	// alert($(content).attr('src'));
 	 // window.location.assign($(content).attr('src'));
-	 window.moveTo(0,3000);
+	 window.moveTo(10000,10000);
 
+}
+
+function downloadfooter(){
+
+	$('html, body').animate({scrollTop:$('#downloadfooter').offset().top}, 1500);
 }
 
 
