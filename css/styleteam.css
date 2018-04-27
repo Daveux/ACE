@@ -13,7 +13,7 @@ body{
 
 .sticky {
   background-color: #0d59afd6;
-  z-index: 1;
+  /*z-index: 1;*/
 }
 
 .sticky + .content {
@@ -67,7 +67,7 @@ nav#main{
 	 height: 100px;
 	-webkit-transition: background-color 1s;
 	-webkit-transistion: position 0.5s ease-in-out;
-	z-index: 6;
+	/*z-index: 6;*/
 }
 
 nav#main .btn{
